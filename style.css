@@ -4,7 +4,27 @@ text-decoration: wavy underline white;
   letter-spacing: 2px;
   word-spacing: 12px;
 }
+nav {
+  list=style=type: none;
+  width: 100%
+  background-color: #444
+   position: fixed;
+  top: 0;
+  left: 0;
+}
+
+li a {
+  color: gold;
+  text-decoration: none;
+  display: block;
+  float: none;
+  padding: 3px
+}
+
+li a: hover {
+  background-color: wheat;
+  color: black;
+}
 body {
   background-color: darkblue;
 }
-
